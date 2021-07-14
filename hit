@@ -1,0 +1,7 @@
+def play_hand(hit, hand_number, player_count, current_hand, team_order, previous_hands, state):
+    score = 0
+    while score < 1:
+        card = hit()
+        score += card
+    
+    print('hand#{}: score={}'.format(hand_number, score))
